@@ -1,0 +1,168 @@
+* {
+	font-family: Arial;
+}
+
+body{
+    background-color:#fff;
+	background-repeat: repeat;
+    animation: animatedBackground 60s linear infinite;
+}
+
+@keyframes animatedBackground{
+	from {background-position: 0px -400px;}
+	to {background-position: 100% -400px;}
+}
+.row-bg{
+	background-color: green;
+}
+
+.row-content{
+	background-color: #75A175;
+}
+.black-bg{
+	position: absolute;
+	top: 0;
+	left: 15%;
+	background-color: black;
+	width: 70%;
+	height: 100%;
+	opacity: 0.1;
+	z-index: -1;
+}
+#header {
+    margin: 0 auto;
+    display: block;
+	width: 50%;
+	text-align: center;
+} 	
+
+#layer{
+    margin-left: 0;
+    margin-top:0;
+    position: relative;
+    width: 20px;
+    height: 30px;
+}
+
+#highscore {
+	height: 150vh;
+	z-index: 1;
+}
+
+#back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+	height: 60px;
+    width: 60px;
+}
+
+#back:hover{
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+
+#back img {
+	padding-left: 5px;
+	height: 60px;
+	width: 60px;
+}
+
+#tblHS {
+	margin-top: 5%;
+	max-width:60%;
+}
+
+@media only screen and (min-width: 768px) {
+	#header h1{
+		margin: 0;
+		padding: 0 0 0 0;
+		font-size:50px;
+	}
+	body {
+		overflow-y: hidden;
+	}
+	#tblFame {
+		max-width: 50%;
+	}
+}
+
+input[type=text], input[type=number], select{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit]{
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background-color: #45a049;
+}
+
+table{
+	border: 1px solid #ccc;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table tr{
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+
+table th, table td{
+	padding: 10px;
+	text-align: center;
+}
+
+table th{
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+/*
+@media screen and (max-width: 600px){
+	table{
+		border: 0;
+	}
+	table thead{
+		display: block;
+	}
+	table tr{
+		margin-bottom: 10px;
+		display: block;
+		border-bottom: 2px solid #ddd;
+	}
+	table td{
+		display: table-block;
+		text-align: right;
+		font-size: 13px;
+		border-bottom: 1px dotted #ccc;
+	}
+	table td:last-child{
+		border-bottom: 0;
+	}
+	table td:before{
+		content: attr(data-label);
+		float: left;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+}*/

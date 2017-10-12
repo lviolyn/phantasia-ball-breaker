@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="robots" content="noindex, nofollow">
+
+		<link rel="stylesheet prefetch" type="text/css" href="css/game.css">
+
+		<script type="text/javascript" src="js/index.js" defer=""></script>
+		<script type="text/javascript" src="js/loading.js"></script>
+
+		<title>Phantasia - Ball & Breaker</title>
+	</head>
+	<body onload="loading(0)">
+		<div class="fullscreen-bg">
+			<video loop muted autoplay class="fullscreen-bg__video">
+				<source src="videos/main-bg.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="black-bg"></div>
+		<div id="layer">
+			<div class="row after"></div>
+			<img id="title" src="images/btn-howto.png">
+			<h1 style="text-align: center; color: black">Destroy as many bricks as you can
+			before they reach the ground. Use mouse button to guide the bomb(s). Be wary
+			though, the more you destroy the stronger they will become. Help us save our 
+			continent of Phantasia!</h1>
+			<img src="images/frame.png" class="rotateImg">
+			<div class="loading" id="load">0%</div>
+		</div>
+	</body>
+</html>

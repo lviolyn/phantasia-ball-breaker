@@ -1,0 +1,32 @@
+[
+	{
+		"name":"Ivy Marcia",
+		"nim":"00000010760",
+		"job":"Artist, Animator, Coder",
+		"imageUrl":"images/ivy.jpg"
+	},
+	{
+		"name":"Octavany",
+		"nim":"00000011597",
+		"job":"Coder, Designer, Ass. Animator",
+		"imageUrl":"images/Octa.jpg"
+	},
+	{
+		"name":"Vionilyn",
+		"nim":"00000011576",
+		"job":"Designer, Coder",
+		"imageUrl":"images/vio.jpg"
+	},
+	{
+		"name":"Anthony",
+		"nim":"00000011609",
+		"job":"Coder",
+		"imageUrl":"images/Anthony.jpg"
+	},
+	{
+		"name":"Christopher Reinaldo",
+		"nim":"00000010755",
+		"job":"Main Coder",
+		"imageUrl":"images/Chris.jpg"
+	}
+]

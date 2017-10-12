@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex, nofollow">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet prefetch" type="text/css" href="css/game.css">
+	<!-- <link rel="stylesheet prefetch" type="text/css" href="css/highscore.css"> -->
+
+	<script type="text/javascript" src="js/credits.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+	<title>Phantasia - Ball & Breaker</title>
+</head>
+<body >
+	<div class="black-bg">
+	</div>
+	<div id="layer">
+		<div class="fullscreen-bg">
+			<video loop muted autoplay class="fullscreen-bg__video">
+				<source src="videos/main-bg.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div>
+			<a href="index.html"><img id="back" src="images/btn-arrow.png"></a>
+		</div>
+		<div>
+			<!-- <img src="images/bg-layer.png">	 -->
+			<img src="images/btn-credits.png" id="title">
+			<span id="ivy" class="credit col-md-4" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="show_data(0)">
+				<img class="col-md-12" src="images/ivy.png">	
+			</span>
+			<span id="octa" class="credit col-md-4" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="show_data(1)">
+				<img class="col-md-12" src="images/Octa.png" style="image-orientation: from-image;">	
+			</span>
+			<span id="vio" class="credit col-md-4" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="show_data(2)">
+				<img class="col-md-12" src="images/vio.png">	
+			</span>
+			<div class="space-ten"></div>
+			<span id="anthony" class="credit col-md-4" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="show_data(3)">
+				<img src="images/Anthony.png" class="col-md-12">
+			</span>
+			<span id="christopher" class="credit col-md-4" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="show_data(4)">
+				<img src="images/Chris.png" class="col-md-12">
+			</span>
+			<span>
+		</div>		
+	</div>
+	<div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog cascading-modal modal-avatar modal-sm" role="document">
+            <!--Content-->
+            <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                	<a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+      				<div id="img">
+                    <!-- <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%281%29.jpg" class="rounded-circle img-responsive"> -->
+                    </div>
+                </div>
+                <!--Body-->
+                <div class="modal-body text-center mb-1">
+    				<div>
+					  	<h5 id="nama" class="mt-1 mb-2"></h5>	
+				  	</div>
+					<div>
+						<h5 id="nim" class="mt-1 mb-2"></h5>	
+					</div>
+					<div>
+						<h5 id="job" class="mt-1 mb-2"></h5>	
+					</div>
+                </div>
+            </div>
+        </div>
+            <!--/.Content-->
+    </div>
+</body>
+</html>
