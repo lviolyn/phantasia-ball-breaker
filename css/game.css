@@ -14,6 +14,17 @@ body{
 	to {background-position: 100% -400px;}
 }
 
+.black-bg{
+	position: absolute;
+	top: 0;
+	left: 15%;
+	background-color: black;
+	width: 70%;
+	height: 100%;
+	opacity: 0.1;
+	z-index: -1;
+}
+
 .fullscreen-bg {
   position: fixed;
   top: 0;
